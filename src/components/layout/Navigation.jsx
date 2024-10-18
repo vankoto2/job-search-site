@@ -24,7 +24,7 @@ function Navigation() {
     setOpen(true);
     setLogAs("worker");
   };
-
+console.log(logAs);
   return (
     <>
       <Dialog open={open} onClose={setOpen} className="relative z-10">
@@ -50,7 +50,9 @@ function Navigation() {
                     </DialogTitle>
                     <div className="mt-2">
                       <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-                        <form action="#" method="POST" className="space-y-6">
+                        <div 
+                        // action="#" method="POST"
+                         className="space-y-6">
                           <div>
                             <label
                               htmlFor="email"
@@ -102,13 +104,13 @@ function Navigation() {
                           <div>
                             <button
                               onClick={() => openWorkHandler()}
-                              type="submit"
+                              // type="submit"
                               className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                             >
                               Sign in
                             </button>
                           </div>
-                        </form>
+                        </div>
                       </div>
                     </div>
                   </div>
