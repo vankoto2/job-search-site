@@ -16,7 +16,7 @@ function Footer() {
           </div>
 
           <div className="text-center mb-4 md:mb-0">
-            <ul className="space-x-6 text-[#004AAD]">
+            <ul className="sm:space-x-6 text-[#004AAD]">
               <li>
                 <Link to="/about" className="hover:underline">
                   За Нас

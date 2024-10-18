@@ -132,7 +132,7 @@ console.log(logAs);
               />
             </Link>
 
-            <ul className="flex space-x-6">
+            <ul className="flex sm:space-x-6">
               {logAs && (
                 <li>
                   <Link to="/" className="hover:underline" id="find-job">
